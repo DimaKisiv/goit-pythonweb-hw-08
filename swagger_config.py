@@ -1,5 +1,3 @@
-# swagger_config.py
-
 tags_metadata = [
     {"name": "Contacts", "description": "CRUD operations over contacts."},
     {"name": "Search",   "description": "Search by name/email and upcoming birthdays."},

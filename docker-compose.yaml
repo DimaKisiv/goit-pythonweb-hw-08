@@ -26,7 +26,7 @@ services:
     depends_on:
       db:
         condition: service_healthy
-    working_dir: /app               # <<< critical so uvicorn reload doesn't scan "/"
+    working_dir: /app 
     environment:
       DATABASE_URL: postgresql+psycopg2://postgres:567234@db:5432/contactsdb
       PYTHONDONTWRITEBYTECODE: "1"
